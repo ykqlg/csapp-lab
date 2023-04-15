@@ -1,0 +1,11 @@
+
+kaboom_asm.o:     file format elf32-i386
+
+
+Disassembly of section .text:
+
+00000000 <.text>:
+   0:	b8 39 a0 1c 5d       	mov    $0x5d1ca039,%eax
+   5:	8d 6c 24 18          	lea    0x18(%esp),%ebp
+   9:	68 8d 95 04 08       	push   $0x804958d
+   e:	c3                   	ret    
